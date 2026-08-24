@@ -6,14 +6,24 @@ body {
 .header {
   background-color: #010409;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   padding-bottom: 10px;
+  padding-top: 10px;
   max-height: 100px;
   box-shadow: 0 1px 0px rgba(177, 177, 177, 0.5);
 }
+.title {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .container {
-  margin: 0 auto;
+  margin: 0;
   padding-left: 10px;
+  padding-right: 10px;
+}
+.img {
+  width: 85px;
+  height: 85px;
   padding-right: 10px;
 }
 .flex {
