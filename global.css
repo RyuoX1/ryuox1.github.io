@@ -88,6 +88,7 @@ body {
 @media (max-width: 600px) {
     .title {
       font-size: 20px;
+      grid-template-columns: 20px 100%;
     }
     .info {
       font-size: 8px;
@@ -114,9 +115,9 @@ body {
       color: #8b949e;
     }
     .text-1 {
-      font-size: 8px;
+      font-size: 7px;
       color: #8b949e;
-      margin-left: 15px;
+      margin-left: 20px;
     }
     .cube {
       width: 15px;
