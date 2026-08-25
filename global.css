@@ -1,3 +1,4 @@
+
 body {
   background-color: #0d1117;
   color: #f0f6fc;
@@ -93,17 +94,17 @@ body {
   padding: 20px 0 0 0;
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 1%;
   max-width: 100%;
 }
 .subtitle {
   margin-top: 0;
   font-size: 25px;
   font-weight: bold;
+  max-width: 100%;
 }
 .section {
   display: grid;
-  grid-template-columns: 40px 100%;
+  grid-template-columns: 6% 94%;
 }
 .section-item {
   display: flex;
@@ -116,6 +117,9 @@ body {
 }
 
 @media (max-width: 600px) {
+    .header {
+      grid-template-columns: 33% 33% 33%;
+    }
     .title {
       font-size: 20px;
       grid-template-columns: 20px 100%;
@@ -134,14 +138,14 @@ body {
       height: 18px;
     }
     .container {
+      grid-template-columns: 100%;
       padding: 10px 0 0 0;
     }
     .subtitle {
     font-size: 20px;
     }
     .text-2 {
-      font-size: 15px;
-      margin-left: 20px;
+      font-size: 10px;
     }
     .text-1 {
       font-size: 7px;
@@ -153,9 +157,13 @@ body {
     }
 
     .section {
-      grid-template-columns: 20px 100%;
+      grid-template-columns: 4% 96%;
     }
     .subtitle {
       font-size: 15px;
+    }
+    .subtopic {
+      font-size: 13px;
+      margin-left: 20px;
     }
 }
