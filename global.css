@@ -80,16 +80,9 @@ body {
   font-size: 20px;
   color: #8b949e;
 }
-<<<<<<< HEAD
 .cube{
   background-color: #ffffff;
   width: 30px;
-=======
-.text-18 {
-  font-size: 16px;
-  /* text-align: justify; */
-  color: #8b949e;
->>>>>>> 334960c35a2d2aaea6a004d94df7bb11fe75b1b6
 }
 
 @media (max-width: 600px) {
