@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 .header {
-  background-color: #939393;
+  background-color: #ffffff;
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
@@ -30,6 +30,7 @@ body {
   font-weight: bold;
   display: flex;
   align-items: center;
+  margin-left: 40px;
 }
 .info {
   align-items: center;
@@ -83,7 +84,7 @@ body {
   color: #a2adb9;
 }
 .text-2 a {
-  color: #a2adb9;
+  color: #0c0c0c;
 }
 .container {
   padding: 20px 0 0 0;
