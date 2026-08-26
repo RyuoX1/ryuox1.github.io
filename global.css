@@ -70,9 +70,9 @@ body {
   color: #8b949e;
 }
 .cube{
-  background-color: #fafafac9;
+  background-color: #101010c0;
   height: 35px;
-  width: 35px;
+  width: 20spx;
 }
 
 .text-2 {
@@ -105,7 +105,7 @@ body {
   align-items: center;
 }
 .subtopic {
-  color: #ffffffcc;
+  color: #121212df;
   font-size: 20px;
   margin: 10px 0 15px 40px;
 }
