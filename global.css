@@ -23,7 +23,7 @@ body {
 .title {
   display: grid;
   grid-template-columns: 40px minmax(0, 1fr);
-  font-size: 30px;
+  font-size: 40px;
   padding-bottom: 10px;
 }
 .title-item {
