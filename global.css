@@ -1,5 +1,7 @@
+
 body {
-  background-color: #0d1117;
+  /* background-color: #0d1117; */
+  background-color: #0D1117;
   color: #f0f6fc;
   margin: 0;
 }
@@ -21,7 +23,7 @@ body {
 }
 .title {
   display: grid;
-  grid-template-columns: 6% 94%;
+  grid-template-columns: 40px minmax(0, 1fr);
   font-size: 30px;
   padding-bottom: 10px;
 }
@@ -29,7 +31,6 @@ body {
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content:flex-start;
 }
 .info {
   align-items: center;
@@ -63,13 +64,6 @@ body {
   width: 25px;
   height: 25px;
 }
-.flex {
-  display: flex;
-}
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
 
 .text-1 {
   margin-left: 40px;
@@ -77,12 +71,13 @@ body {
   color: #8b949e;
 }
 .cube{
-  background-color: #ffffff;
-  height: 40px;
+  background-color: #fafafac9;
+  height: 35px;
   width: 35px;
 }
 
 .text-2 {
+  margin-left: 15px;
   font-size: 15px;
   color: #a2adb9;
 }
@@ -103,47 +98,50 @@ body {
 }
 .section {
   display: grid;
-  grid-template-columns: 6% 94%;
+  grid-template-columns: 40px minmax(0, 1fr);
 }
+
 .section-item {
   display: flex;
   align-items: center;
 }
 .subtopic {
-  color: #ffffff;
+  color: #ffffffcc;
   font-size: 20px;
   margin: 10px 0 15px 40px;
 }
 
 @media (max-width: 600px) {
     .header {
-      grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 33.33% 33.33% 33.33%;
     }
     .title {
-      font-size: 20px;
-      grid-template-columns: 20px 100%;
+      font-size: 16px;
+      align-items: center;
+      grid-template-columns: 20px minmax(0, 1fr);
       padding-bottom: 5px;
     }
     .info {
       font-size: 8px;
       margin-right: 10px;
     }
+    .info-item {
+      margin-bottom: 4px;
+    }
     .logo-img {
       width: 65px;
       height: 65px;
     }
     .icon {
-      width: 18px;
-      height: 18px;
+      width: 17px;
+      height: 17px;
     }
     .container {
       grid-template-columns: 100%;
       padding: 10px 0 0 0;
     }
-    .subtitle {
-    font-size: 20px;
-    }
     .text-2 {
+      margin-left: 10px;
       font-size: 10px;
     }
     .text-1 {
@@ -151,12 +149,13 @@ body {
       margin-left: 20px;
     }
     .cube {
-      height: 22px;
-      width: 15px;
+      height: 18px;
+      width: 18px;
     }
 
     .section {
-      grid-template-columns: 4% 96%;
+      grid-template-columns: 20px minmax(0, 1fr);
+      align-items: center;
     }
     .subtitle {
       font-size: 15px;
