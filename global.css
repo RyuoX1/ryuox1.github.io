@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 .header {
-  background-color: #ffffff;
+  background-color: #f0f6fc;
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
@@ -42,7 +42,7 @@ body {
   grid-template-rows: 25% 25% 25% 25%;
 }
 .info a {
-  color: #f0f6fc;
+  color: #0D1117;
   text-decoration: none;
 }
 .info-item {
@@ -84,7 +84,7 @@ body {
   color: #a2adb9;
 }
 .text-2 a {
-  color: #0c0c0c;
+  color: #a2adb9;
 }
 .container {
   padding: 20px 0 0 0;
