@@ -1,11 +1,11 @@
 
 body {
-  background-color: #f0f6fc;
+  background-color: #ffffff;
   color: #0D1117;
-  margin: 5% 20% 0 20%;
+  margin: 5% 25%;
 }
 .header {
-  background-color: #f0f6fc;
+  background-color: #ffffff;
   align-items: center;
   justify-content: center;
   padding-bottom: 20px;
@@ -30,7 +30,6 @@ body {
   font-weight: bold;
   display: flex;
   align-items: center;
-  margin-left: 40px;
 }
 .info {
   align-items: center;
@@ -43,7 +42,6 @@ body {
 }
 .info a {
   color: #0D1117;
-  text-decoration: none;
 }
 .info-item {
   display: flex;
@@ -68,9 +66,8 @@ body {
 }
 
 .text-1 {
-  margin-left: 40px;
   font-size: 14px;
-  color: #8b949e;
+  color: #52585e;
 }
 .cube{
   background-color: #101010;
@@ -81,10 +78,10 @@ body {
 .text-2 {
   margin-left: 15px;
   font-size: 15px;
-  color: #a2adb9;
+  color: #52585e;
 }
 .text-2 a {
-  color: #a2adb9;
+  color: #52585e;
 }
 .container {
   padding: 20px 0 0 0;
